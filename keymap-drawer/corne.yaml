@@ -37,7 +37,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-command$$'}
   - '4'
   - {t: '$$mdi:keyboard-space$$', h: '5'}
   - {t: '$$mdi:keyboard-return$$', h: '5'}
