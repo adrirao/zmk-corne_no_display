@@ -2,24 +2,24 @@ layout: {zmk_keyboard: corne, layout_name: default_transform}
 layers:
   QWERTY:
   - {t: '$$mdi:keyboard-tab$$', h: '~'}
-  - {t: Q, h: '1'}
-  - {t: W, h: '2'}
-  - {t: E, h: '3'}
-  - {t: R, h: '4'}
-  - {t: T, h: '5'}
-  - {t: Y, h: (}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
   - U
   - I
   - O
   - {t: P, h: '$$mdi:arrow-up-bold$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: A, h: '6'}
-  - {t: S, h: '7'}
-  - {t: D, h: '8'}
-  - {t: F, h: '9'}
-  - {t: G, h: '0'}
-  - {t: H, h: '{'}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
   - J
   - K
   - {t: L, h: '$$mdi:arrow-left-bold$$'}
@@ -31,7 +31,7 @@ layers:
   - C
   - V
   - B
-  - {t: '[', h: N, s: '{'}
+  - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
