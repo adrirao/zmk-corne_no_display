@@ -11,7 +11,7 @@ layers:
   - U
   - I
   - O
-  - {t: P, h: '$$mdi:arrow-up-bold$$'}
+  - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
@@ -22,9 +22,9 @@ layers:
   - H
   - J
   - K
-  - {t: L, h: '$$mdi:arrow-left-bold$$'}
-  - {t: ;, h: '$$mdi:arrow-down-bold$$', s: ':'}
-  - {t: '''', h: '$$mdi:arrow-right-bold$$', s: '"'}
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
