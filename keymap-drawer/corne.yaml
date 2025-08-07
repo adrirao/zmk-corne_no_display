@@ -1,37 +1,37 @@
 layout: {zmk_keyboard: corne, layout_name: default_transform}
 layers:
   QWERTY:
-  - $$mdi:keyboard-tab$$
-  - {t: Q, h: '!'}
-  - W
-  - E
-  - R
-  - T
-  - Y
+  - {t: '$$mdi:keyboard-tab$$', h: '~'}
+  - {t: Q, h: '1'}
+  - {t: W, h: '2'}
+  - {t: E, h: '3'}
+  - {t: R, h: '4'}
+  - {t: T, h: '5'}
+  - {t: Y, h: (}
   - U
   - I
   - O
-  - P
+  - {t: P, h: '$$mdi:arrow-up-bold$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
+  - {t: A, h: '6'}
+  - {t: S, h: '7'}
+  - {t: D, h: '8'}
+  - {t: F, h: '9'}
+  - {t: G, h: '0'}
+  - {t: H, h: '{'}
   - J
   - K
-  - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: L, h: '$$mdi:arrow-left-bold$$'}
+  - {t: ;, h: '$$mdi:arrow-down-bold$$', s: ':'}
+  - {t: '''', h: '$$mdi:arrow-right-bold$$', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
   - V
   - B
-  - N
+  - {t: '[', h: N, s: '{'}
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
