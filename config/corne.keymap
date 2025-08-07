@@ -39,9 +39,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mt TILDE TAB         &kp Q  &kp W  &kp E                  &kp R  &kp T          &kp Y        &kp U     &kp I                   &kp O             &mt UP_ARROW P            &kp BSPC
-&mt LEFT_CONTROL ESC  &kp A  &kp S  &kp D                  &kp F  &kp G          &kp H        &kp J     &kp K                   &mt LEFT_ARROW L  &mt DOWN_ARROW SEMICOLON  &mt RIGHT_ARROW SQT
-&kp LEFT_SHIFT        &kp Z  &kp X  &kp C                  &kp V  &kp B          &kp N        &kp M     &kp COMMA               &kp DOT           &kp FSLH                  &kp RSHFT
+&mt TILDE TAB         &kp Q  &kp W  &kp E                  &kp R  &kp T          &kp Y        &kp U     &kp I                   &kp O    &kp P          &kp BSPC
+&mt LEFT_CONTROL ESC  &kp A  &kp S  &kp D                  &kp F  &kp G          &kp H        &kp J     &kp K                   &kp L    &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT        &kp Z  &kp X  &kp C                  &kp V  &kp B          &kp N        &kp M     &kp COMMA               &kp DOT  &kp FSLH       &kp RSHFT
                                     &mt LEFT_COMMAND CAPS  &mo 1  &lt 2 SPACE    &lt 2 ENTER  &kp RALT  &mt LEFT_CONTROL TILDE
             >;
         };
