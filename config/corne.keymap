@@ -48,10 +48,10 @@
 
         layer_4 {
             bindings = <
-&none  &kp N1  &kp N2   &kp N3  &kp N4  &kp N5    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none      &kp HOME  &kp UP    &kp END
-&none  &kp N6  &kp N7   &kp N8  &kp N9  &kp N0    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS  &kp LEFT  &kp DOWN  &kp RIGHT
-&none  &kp F5  &kp F12  &kp F7  &kp F8  &kp F9    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL  &none     &none     &kp RSHIFT
-                        &none   &none   &none     &none                 &none                  &none
+&none  &kp N1  &kp N2   &kp N3  &kp N4  &kp N5    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none      &none     &kp UP    &kp BACKSPACE
+&none  &kp N6  &kp N7   &kp N8  &kp N9  &kp N0    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HOME   &kp LEFT  &kp DOWN  &kp RIGHT
+&none  &kp F5  &kp F12  &kp F7  &kp F8  &kp F9    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp END    &none     &none     &kp RSHIFT
+                        &none   &none   &none     &kp SPACE             &kp MINUS              &kp EQUAL
             >;
         };
 
