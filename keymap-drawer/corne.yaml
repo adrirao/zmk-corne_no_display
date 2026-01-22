@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne, layout_name: default_transform}
 layers:
   QWERTY:
-  - {t: '$$mdi:keyboard-tab$$', h: '~'}
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -37,14 +37,14 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: LEFT WIN, h: '$$mdi:apple-keyboard-option$$'}
   - '4'
   - {t: '$$mdi:keyboard-space$$', h: '5'}
   - {t: '$$mdi:keyboard-return$$', h: '5'}
   - $$mdi:apple-keyboard-option$$
-  - {t: '~', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:apple-keyboard-control$$
   '4':
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '~'
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
